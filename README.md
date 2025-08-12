@@ -7,7 +7,7 @@ Asides the readme file more details on this project and subsequent ones will be 
 
 - [X](https://x.com/ChibuikemLucas): A list of the tasks completed for the day.
 - [Linkedin](https://linkedin.com/in/chibuikem-lucas-073355261/): A more detailed explanation of the tasks completed, with a key lesson for each day.
-- Hashnode: A full recap of the entire day, problems, how they were solved and key takeaways.
+- [Hashnode](https://the-developer-experience.hashnode.dev): A full recap of the entire day, problems, how they were solved and key takeaways.
 
 
 # Interactive Resume
