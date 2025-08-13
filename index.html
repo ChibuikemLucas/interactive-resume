@@ -8,13 +8,54 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="script.js"></script>
+
 <body>
     <div id="resume-card">
-        <h1>Chibuikem Lucas</h1>
-        <p>Front End Developer</p>
-        <button id="contact-btn">Contact Me</button>
+        <h1 id="name">Chibuikem Lucas</h1>
+        <p id="role">Front End Developer</p>
+
+        <div class="tab-buttons">
+            <button class="tab-btn" data-target="about">About</button>
+            <button class="tab-btn" data-target="skills">Skills</button>
+            <button class="tab-btn" data-target="experience">Experience</button>
+            <button class="tab-btn" data-target="projects">Projects</button>
+            <button class="tab-btn" data-target="contact">Contact</button>
+        </div>
+
+        <div id="content">
+            <section id="about" class="tab-content active">
+                <p>Hi! I'm a passionate developer with a love for building interactive web apps.</p>
+            </section>
+
+            <section id="skills" class="tab-content">
+                <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML & CSS</li>
+                    <li>React / Next.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </section>
+
+            <section id="experience" class="tab-content">
+                <p>3+ years of building full-stack applications for startups and enterprises.</p>
+            </section>
+
+            <section id="projects" class="tab-content">
+                <ul>
+                    <li>Interactive Resume (this project!)</li>
+                    <li>E-commerce Dashboard</li>
+                    <li>AI Chatbot with OpenAI API</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="tab-content">
+                <p>Email: your@email.com</p>
+                <p>LinkedIn: <a href="#">linkedin.com/in/yourname</a></p>
+            </section>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 
 </html>
