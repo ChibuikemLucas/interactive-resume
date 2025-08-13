@@ -16,12 +16,18 @@ A single-page, JavaScript-powered resume card with animations and dynamic sectio
 Built as part of my **Modern JavaScript Deep Dive** learning week.
 
 ## 🚀 Live Demo
-[Production Link](https://vercel.com/chibuikem-lucas-emereninis-projects/interactive-resume)  
+[Production Link](https://interactive-resume-bice.vercel.app/)  
+
+## 📅 Progress Log
+- Day 1: Static HTML/CSS Resume Card
+- Day 2: Multi-section, animated experience with GSAP
 
 ## 🛠 Tech Stack
 - HTML5
-- CSS3
+- CSS3  (Flexbox, Gradients)
 - JavaScript (ES6+)
+- GSAP
+- Vercel for hosting
 
 ## 📦 Setup
 ```bash
