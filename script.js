@@ -26,16 +26,19 @@ document.querySelectorAll(".tab-btn").forEach(button => {
                     if (targetId === "skills" || targetId === "projects") {
                         gsap.from(targetSection.querySelectorAll("li"), {
                             opacity: 0,
-                            y: 20,
+                            rotationX: 90,
+                            transformOrigin: "top",
                             duration: 0.6,
-                            ease: "bounce.out",
+                            ease: "back.out(1.7)",
                             stagger: 0.1
                         });
                     } else {
                         gsap.from(targetSection, {
                             opacity: 0,
-                            y: 20,
-                            duration: 0.4
+                            rotationY: 90,
+                            transformOrigin: "left",
+                            duration: 0.6,
+                            ease: "power2.out"
                         });
                     }
                 }
