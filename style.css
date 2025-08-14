@@ -46,3 +46,22 @@ body {
 .tab-content.active {
     display: block;
 }
+
+/* Glow effect on hover */
+.tab-btn:hover {
+    background: #005bb5;
+    box-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff;
+}
+
+/* Fancy name styling */
+#name {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#role {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+}

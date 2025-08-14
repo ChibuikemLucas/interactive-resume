@@ -44,6 +44,11 @@ document.querySelectorAll(".tab-btn").forEach(button => {
     });
 });
 
+// Hero name & role spring pop
+gsap.from("#name", { y: -50, opacity: 0, duration: 1, ease: "elastic.out(1, 0.5)" });
+gsap.from("#role", { y: 20, opacity: 0, duration: 1, delay: 0.3, ease: "power2.out" });
+
+
 // Page load animation
 window.addEventListener("DOMContentLoaded", () => {
     gsap.from("#resume-card", { opacity: 0, scale: 0.9, duration: 0.8, ease: "power2.out" });
