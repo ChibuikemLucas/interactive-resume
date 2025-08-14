@@ -1,4 +1,4 @@
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/b71d0aa5-1676-4f73-8bc2-b03cff1666db" /># Modern JavaScript Deep Dive
+# Modern JavaScript Deep Dive
 
 Hello there, it's your favourite developer here. This is a project in my **javascript deep dive** which is part of a **weekly project-oriented learning series** i've curated to assist
 developers like me in escaping tutorial hell with online courses and instead learn necessary JS practices from building a project which could be added to their resume.
@@ -45,7 +45,7 @@ Built as part of my **Modern JavaScript Deep Dive** learning week.
 
   
 ## 📷 Preview
-![Preview Screenshot]()
+<img width="2000" height="1000" alt="image" src="https://github.com/user-attachments/assets/b71d0aa5-1676-4f73-8bc2-b03cff1666db" />
 
 ## 📦 Setup
 ```bash
